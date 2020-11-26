@@ -6,7 +6,6 @@ const yon='';
 const server = http.createServer ( (req, res)=> {
   
 
-
     fs.readFile(url, (err, data) => {
          res.write (data);
          res.end ();
