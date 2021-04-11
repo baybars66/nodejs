@@ -1,5 +1,5 @@
-const http = require ('http');
-const fs = require ('fs');
+//const http = require ('http');
+//const fs = require ('fs');
 const expr = require ("express"); // projeye expres ekleniyorum.
 const yonveren = expr(); // express nesnesi olutrudum.
 const path = require('path');
