@@ -7,17 +7,17 @@ const path = require('path');
 yonveren.use("/public", expr.static("dene"));
 yonveren.use('/public', expr.static(path.join(__dirname, 'public')));
 
-const indexCon = (req, res) => { res.sendFile(path.join(__dirname, "index.html"));}
-const logCon = (req, res) => { res.sendFile(path.join(__dirname, "index2.html"));}
+//const indexCon = (req, res) => { res.sendFile(path.join(__dirname, "index.html"));}
+//const logCon = (req, res) => { res.sendFile(path.join(__dirname, "index2.html"));}
 
-yonveren.get ("/", indexCon);
-yonveren.get ("/log", logCon);
+//yonveren.get ("/", indexCon);
+//yonveren.get ("/log", logCon);
 
-/*
+
     yonveren.get ("/", (req, res) => 
     { res.sendFile(path.join(__dirname, "index.html"));
              
     });
 
-*/
+
 yonveren.listen (10068);
