@@ -2,7 +2,7 @@
    "name": "Server",
    "version": "1.0.0",
    "scripts": {
-      "start": "nodemon server.js"
+      "start": "node server5.js"
    },
    "dependencies": {
       "express": "^4.17.1"
