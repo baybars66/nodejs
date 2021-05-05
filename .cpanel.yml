@@ -3,6 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/dg86quw872gw/denemem/
     - /bin/cp -R Routers $DEPLOYPATH
+    - /bin/cp -R Controls $DEPLOYPATH
+    - /bin/cp -R Functions $DEPLOYPATH
     - /bin/cp server5.js $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
